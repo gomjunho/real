@@ -1,0 +1,47 @@
+
+ul { list-style:none; margin:0; padding:0; }
+img { border:0; vertical-align: top;}
+body {margin:0; text-align:center; font:12px "Indie Flower","맑은 고딕","돋움"; color:#767676; background:url(../images/bg.jpg); }
+a{text-decoration: inherit;}
+
+ .wrap{ margin:0 auto; border:1px solid black; }
+h1{font-size:45px;  color:white; background-color:black; background:rgba(0,0,0,0.4);margin:0;}
+p{font-size:20px; color:black; margin:0;}
+
+/*1*/
+ #w_gall1{width:90%; margin:0 auto; border:1px solid orange;}
+ #w_gall1 .mas1{overflow:hidden; position:relative; margin:0 auto; width:500px; height:500px;}
+ #w_gall1 #gall_1{width:1500px; height:500px; position:absolute; top:0; left:0; z-index:100;}
+ #w_gall1 #gall_2{width:1500px; height:500px; position:absolute; top:0; left:0; z-index:10;}
+ #w_gall1 #gall_3{width:1500px; height:500px; position:absolute; top:0; left:0; z-index:1;}
+ 
+ .gall1_button{/*border:1px solid pink;*/ width:100%; overflow:hidden;}
+ .nav{}
+ .nav li{display:inline-block; margin-top:5px;  margin-left:15px;    }
+ .nav li a{ border-radius: 50%; background-color:hotpink; display:block; width:20px; height:20px;  }
+ 
+ 
+
+/*2*/
+#w_gall2{position:relative; border:1px solid red; overflow:hidden; } 
+#w_gall2 .mas2{position:relative; border:1px dashed blue;  overflow:hidden; margin:0 auto; width:900px; height:300px;/*높이를 지정하지 않으면 영역이 없어서 인식을 못함. 높이 지정해주자.*/}
+#w_gall2 #mas_gall2{  position:absolute; top: 0px; left:0px;  overflow:hidden; width:99999px; height:280px;/*padding-top:7px;*/}
+ /*#mas_gall2가 function의 대상이니(넘어가는 주체) position 설정되어야 하고, width값도 무한이어야함. */
+
+.mas2 #mas_gall2 .gall2_set{float:left; /*width:3600px; ul이 두개로 복제되었기 때문에 ul끼리의 floatL*/ }
+.mas2 #mas_gall2 .gall2_set li{float:left; }
+
+.gall2_button {position:absolute; left:50%; top:240px;} 
+.gall2_button li{float:left; margin-right:15px; }
+ .gall2_button li a{ border-radius: 50%;  display:block; width:20px; height:20px;  }
+.gall2_button li #2n1{}
+
+.prev{position:absolute; top:150px; left:10px; font-size:30px; color:coral;}
+.prev a{width:30px; height:30px;}
+.next{position:absolute; top:150px; right:10px; font-size:30px;}
+
+
+
+
+
+
